@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Swift-fonts
-//
-//  Created by 大野颯太 on 2022/02/26.
-//
 
 import UIKit
 
