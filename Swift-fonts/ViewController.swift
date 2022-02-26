@@ -7,7 +7,8 @@ class ViewController: UIViewController {
         label.numberOfLines = 0
         label.textAlignment = .center
         label.text = "The quick brown fox jumped over the lazy dog"
-        label.font = .systemFont(ofSize: 50)
+//        label.font = .systemFont(ofSize: 50)
+        label.font = .preferredFont(forTextStyle: .largeTitle, compatibleWith: .init(layoutDirection: .rightToLeft))
         return label
     }()
 
